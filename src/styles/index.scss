@@ -45,15 +45,16 @@ body {
         max-width: 100%;
         text-align: center;
         margin-bottom: 3rem;
-        color: #333;
+        color: #fff;
 
         p {
             margin: 0 0 0.5rem 0;
             font-weight: normal;
+            font-family: "Raleway", sans-serif;
         }
 
         hr {
-            border: 2px solid #333;
+            border: 2px solid #fff;
             border-bottom: none;
             margin: 0;
             width: 100%;
@@ -75,9 +76,10 @@ body {
         max-width: 300px;
 
         p {
-            margin: 0 0 1rem 0;
+            margin: 0 0 0.5rem 0;
             font-weight: normal;
             letter-spacing: 2px;
+            font-family: "Raleway", sans-serif;
         }
 
         hr {
@@ -124,16 +126,18 @@ body {
                 font-weight: normal;
                 width: 100%;
 
-                h2 {
+                h1 {
+                    font-family: "Raleway", sans-serif;
                     font-weight: normal;
                     letter-spacing: 0.05rem;
                     text-align: center;
                 }
 
-                h2 + h2 {
+                h1 + h2 {
                     margin: 1rem 0;
                     text-transform: uppercase;
                     text-align: center;
+                    font-weight: normal;
                 }
 
                 hr {
@@ -161,6 +165,7 @@ body {
                     font-size: 2rem;
                     text-align: center;
                     margin: 1rem 0 3rem 0;
+                    font-weight: normal;
                 }
 
                 .price {
@@ -173,6 +178,7 @@ body {
                     font-size: 2rem;
                     text-align: center;
                     margin: 1rem 0 3rem 0;
+                    font-weight: normal;
                 }
                 hr {
                     border: 1px solid #fff;

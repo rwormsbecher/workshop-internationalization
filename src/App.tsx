@@ -7,14 +7,12 @@ function App() {
             <div className="col-1-container">
                 <p>Museum plein</p>
                 <hr />
-                <p>28-02-2023</p>
             </div>
 
             <div className="col-2-container">
                 <div className="col-1-container-mobile">
                     <p>Museum plein</p>
                     <hr />
-                    <p>28-02-2023</p>
                 </div>
                 <div className="top-shape"></div>
 
@@ -23,7 +21,7 @@ function App() {
                         <GiViolin />
                     </div>
                     <div className="band-name">
-                        <h2>Dance orchestra band</h2>
+                        <h1>Walloping Violin Orchestra</h1>
                         <h2>May 06 - 10.2023</h2>
                         <hr />
                     </div>
@@ -34,7 +32,7 @@ function App() {
                         <hr />
                         <p className="price">Price</p>
                         <h4>
-                            &euro; 20,<sup>00</sup>
+                            &euro; 20,<small>00</small>
                         </h4>
                     </div>
                 </div>
