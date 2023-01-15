@@ -8,7 +8,7 @@ import { translationSets } from "./i18n";
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
     <React.StrictMode>
-        <IntlProvider locale={navigator.language} defaultLocale={navigator.language} messages={translationSets.en}>
+        <IntlProvider locale={"en-us"} defaultLocale={"en-us"} messages={translationSets.en}>
             <App />
         </IntlProvider>
     </React.StrictMode>
