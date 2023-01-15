@@ -27,8 +27,9 @@ function App() {
                     </div>
 
                     <div className="band-body">
+                        <p className="on-tour">On tour: yes</p>
                         <p className="tickets-available">Tickets available: in 4 months</p>
-                        <h3 className="tickets-left-number">32.000 left</h3>
+                        <h3 className="tickets-left-number">32.000 tickets left</h3>
                         <hr />
                         <p className="price">Price</p>
                         <h4>
